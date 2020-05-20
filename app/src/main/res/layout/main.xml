@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/layout/main.xml -->
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<ScrollView
+		android:id="@+id/scroll"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+			<Button android:id="@+id/primerarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/primerareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/segundarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/segundareceta"
+			android:textColor="#000000"/>
+
+			<Button android:background="@drawable/custom_button_lblue"
+			android:id="@+id/tercerarecetaPlayerBtn"
+			android:textColor="#000000"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:text="@string/tercerareceta"/>
+
+			<Button android:id="@+id/cuartarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/cuartareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/quintarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/quintareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/sextarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/sextareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/septimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/septimareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/octavarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/octavareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/novenarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/novenareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/undecimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/undecimareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/duodecimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/duodecimareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimotercerarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimotercerareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimocuartarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimocuartareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimoquintarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimoquintareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimosextarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimosextareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimoseptimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimoseptimareceta"
+			android:textColor="#000000"/>
+
+
+			<Button android:id="@+id/decimoctavarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimoctavareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/decimonovenarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/decimonovenareceta"
+			android:textColor="#000000"/>
+
+			<Button android:id="@+id/vigesimarecetaPlayerBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/custom_button_lblue"
+			android:text="@string/vigesimareceta"
+			android:textColor="#000000"/>
+
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout
+		android:id="@+id/banner_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+	</LinearLayout>
+
+</LinearLayout>

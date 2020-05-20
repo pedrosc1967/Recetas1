@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="12.- Bizcocho 1-2-3\n
+        \n
+        Ingredientes:\n
+        \n
+        1 yogurt de limón.\n
+        1 yogurt de aceite.\n
+        2 yogurt de azucar.\n
+        3 yogurt de harina.\n
+        3 huevos.\n
+        1 bolsita de levadura.\n
+        mantequilla para engrasar el molde de horno\n
+        \n
+        Se ponen todos los ingredientes en el baso de la batidora (o Thermomix) se baten bien y se echan en un molde de horno previamente engrasado con mantequilla.\n
+        \n
+        Se mete en el horno precalentado a 180ºC y se deja hornear unos 35 min, estará cuando al pincharlo con un cuchillo este salga limpio.\n
+        \n\n\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

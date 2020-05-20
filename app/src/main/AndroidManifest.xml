@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionName="1.0" android:versionCode="1" package="com.recetas.uno">
+
+    <supports-screens android:largeScreens="true" android:anyDensity="true" android:smallScreens="true" android:resizeable="true" android:normalScreens="true"></supports-screens>
+    
+   <application android:label="@string/app_name" android:icon="@drawable/cauldron">
+        <activity android:label="@string/app_name" android:name=".RecetasUno">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<meta-data android:name="ADWHIRL_KEY" android:value="01dffd1ea64f44dca764f38c3ead174c"/> 
+
+        <activity android:name=".primerareceta"
+        		  android:label="@string/app_name"/>
+		<activity android:name=".segundareceta"
+        		  android:label="@string/app_name"/>
+        <activity android:name=".tercerareceta"
+        		  android:label="@string/app_name"/>
+        <activity android:name=".cuartareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".quintareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".sextareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".septimareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".octavareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".novenareceta"
+        		  android:label="@string/app_name"/>
+        <activity android:name=".decimareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".undecimareceta"
+        		  android:label="@string/app_name"/>		  
+        <activity android:name=".duodecimareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+		<activity android:name=".decimotercerareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimocuartareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimoquintareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimosextareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimoseptimareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimoctavareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".decimonovenareceta"
+        		  android:label="@string/app_name"/>		  		  	        		  
+        <activity android:name=".vigesimareceta"
+        		  android:label="@string/app_name"/>
+
+       <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    
+</manifest>

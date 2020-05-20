@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="20.- Espaguetis con gulas\n
+        \n
+        Ingredientes:\n
+        \n
+        Spaguettis o tallarines\n
+        2 latas de gulas en aceite\n
+        1 paquete de salmón ahumado\n
+        100 gr. de piñones\n
+        \n
+        Ponemos a hervir los espaguetis con mantequilla y sal; cuando estén al dente se escurren y se reservan.\n
+        \n
+        Sofreimos en un poco de aceite los piñones que deben quedar dorados (hay que tener cuidado para no quemarlos).\n
+        \n
+        Cortamos a cuadritos el salmón ahumado y mezclamos bien los 4 ingredientes, añadiendo un poco de aceite de la lata de las gulas.\n
+        \n
+        Este plato se puede tomar frío o caliente.\n
+        \n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

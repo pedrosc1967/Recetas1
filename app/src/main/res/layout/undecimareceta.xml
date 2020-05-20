@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="11.- Arroz al horno\n
+        \n
+        Ingredientes:\n
+        \n
+        Arroz.\n
+        Panceta.\n
+        Costilla de cerdo.\n
+        Morcilla.\n
+        Tomate.\n
+        Cabeza de ajos.\n
+        1 patata.\n
+        Un bote de garbanzos cocidos.\n
+        Aceite de oliva.\n
+        \n
+        Echar Un buen chorro de aveite en una sarten, se la añade un ajo y la patata cortada a rodajas gruesas, echarle sal, cuando esten echas retirar.\n
+        \n
+        Sofreir en ese aceite la costilla y la panceta con otro ajo salar bien y sofreir despacio.\n
+        \n
+        Partir tomate por la mitad y freir en el mismo aceite, retirar.\n
+        \n
+        Sofreir los garbanzos y retirar.\n
+        \n
+        En un bol aparte ponemos a cocer en el microondas el doble de agua que de arroz vayamos a poner y le añadimos: sal, colorante y un par de pastillas de avecren de pollo.\n
+        \n
+        Mienttras se calienta el caldo sofreimos el arroz en el aceite del sofrito dejando que coja sustancia a fuego muy lento.\n
+        \n
+        Ponemos el arroz en una fuente onda para horno añadimos el caldo y sobre todo esto los demas ngredientes.\n
+        \n
+        Metemos en horno previamente calentado durante 45 minutos a 220 grados\n
+        \n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

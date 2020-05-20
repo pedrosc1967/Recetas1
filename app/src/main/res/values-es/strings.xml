@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recetas Sencillas</string>
+    <string name="about">Acerca de</string>
+    <string name="version">   Versión</string>
+    <string name="textoabout">   Recetas proporcionadas por Mymma Soto \n   Aplicación desarrollada por Aplanetbit \n   Iconos de Icons-Land \n    http://www.icons-land.com</string>
+	<string name="primerareceta">Pollo a la Coca Cola</string>
+    <string name="segundareceta">Patatas al horno especiales</string>
+    <string name="tercerareceta">Ensalada frequista de arroz</string>
+    <string name="cuartareceta">Bacalao con mahonesa</string>
+    <string name="quintareceta">Salmón asado con soja</string>
+    <string name="sextareceta">Ensalada de Garbanzos</string>
+    <string name="septimareceta">Pastel de Carne rico rico</string>
+    <string name="octavareceta">Chipirones rellenos en salsa</string>
+    <string name="novenareceta">Tarta de queso con mermelada</string>
+    <string name="decimareceta">Huevos al plato</string>
+    <string name="undecimareceta">Arroz al horno</string>
+    <string name="duodecimareceta">Bizcocho 1-2-3</string>
+    <string name="decimotercerareceta">Pollo asado a la cerveza</string>
+    <string name="decimocuartareceta">Patatas a la alavesa</string>
+    <string name="decimoquintareceta">Dorada a la sal</string>
+    <string name="decimosextareceta">Cardo con jamon y nueces</string>
+	<string name="decimoseptimareceta">Ensalada de lentejas con bacalao</string>
+    <string name="decimoctavareceta">Pimientos italianos rellenos</string>
+    <string name="decimonovenareceta">Filetes rusos al horno</string>
+    <string name="vigesimareceta">Espaguetis con gulas</string>
+    <string name="Salir">Salir</string>
+    <string name="Acerca">Acerca de...</string>
+    <string name="Otras_apps">Otras aplicaciones</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="13.- Pollo asado a la cerveza.\n
+        \n
+        Ingredientes:\n
+        \n
+        1 kg de pollo troceado.\n
+        1 botellín de cerveza.\n
+        Sal.\n
+        Pimienta.\n
+        Especias al gusto.\n
+        1 chorrito de aceite.\n
+        Patatas.\n
+        \n
+        \n
+        Colocar el pollo salpimentado previamente en una bandeja de horno, echar por encima un chorrito de aceite y especias al gusto.\n
+        \n
+        A continuación, vertemos medio botellín de cerveza.\n
+        \n
+        Programamos el horno unos 60 minutos a 180º, y colocamos la fuente en la parte baja del mismo.\n
+        \n
+        A mitad de la cocción (30 minutos), daremos la vuelta y añadiremos el resto de la cerveza.\n
+        \n
+        Se puede servir con patatas fritas, pasta, puré de patata o arroz blanco.\n
+        \n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

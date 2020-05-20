@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="15.-Dorada a la sal\n
+        \n
+        Ingredientes:\n
+        \n
+        1 dorada  enteras y sin limpiar. (El número de doradas depende de los comensales y la capacidad del horno).\n
+        1 paquete de sal gorda.\n
+        \n
+        Ponemos una cama de sal gorda en una fuente de horno.\n
+        Disponemos la dorada encima y la cubrimos completamente de sal gorda.\n
+        \n
+        Horneamos con la bandeja en posición intermedia, el grill encendido y 220ºC de temperatura durante media hora (dependiendo del número de doradas y su tamaño). Estará listo cuando la sal forme una costra compacta.\n
+        \n\n">
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

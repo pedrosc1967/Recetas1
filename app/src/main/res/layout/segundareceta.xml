@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="2.-Patatas al horno especiales
+        \n
+        \n
+        Ingredientes:\n
+        Patatas 1 mediana por persona\n
+        Sal/pimienta molida\n
+        Pan rallado\n
+        Queso rallado\n
+        \n
+        \n
+        Pelar, lavar y cortar las patatas en rodajas de unos 4 mm aprox.\n
+        \n
+        Untar con un poco de aceite una bandeja de horno para que las patatas no se pegen a la fuente.\n
+        Colocar las rodajas de patata sobre la fuente, se pueden colocar como mucho dos capas.\n
+        Sobre las patatas echar un chorrito de aceite, la sal, la pimienta, el pan rallado y sobre este el queso rallad en no mucha cantidad.\n
+        \n
+        Colocar al horno fuerte y cuando las patatas estén doradas retirar.\n
+        \n
+        Si son dos las capas de patatas agregar sal/pimienta/pan rallado y queso rallado sobre cada una de las capas.\n
+        \n
+        Estupendo para acompañar carnes y pescados.\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

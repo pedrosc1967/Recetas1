@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="16.- Cardo con jamon y nueces\n
+        \n
+        Ingredientes:\n
+        \n
+        Cardo limpio ó de bote.\n
+        Jamón.\n
+        Nueces.\n
+        Harina.\n
+        Ajo, perejil.\n
+        Aceite y sal.\n
+        \n
+        \n
+        Escurrir el cardo y reservar el caldo en un vaso.\n
+        En una sarten freir el ajo laminado junto al jamon ya cortado en trocitos pequeños, cuando esté casi frito añadirle una puntita de harina. Dejar hacer un poco sin que se queme el ajo y añadirle el cardo y las nueces, cubrir con su propio caldo, dar punto de sal y dejar reducir 3 ó 4 minutos, añadir perejil picado y ya está listo.\n
+        \n\n\n\n\n\n\n\n\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

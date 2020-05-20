@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="5.-Salmón asado con soja.\n
+        \n
+        Ingredientes:\n
+        \n
+        Salmón (la cantidad al gusto) de la parte de la cola, partido por la mitad y sin espinas.\n
+        Salsa de soja.\n
+        \n
+        Se pone el salmón en la fuente para el horno sin aceite ni nada más. Se mete al horno precalentado a 220ºC unos 30 minutos. Estando caliente se le echa por encima salsa de soja al gusto y listo para comer.\n
+        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

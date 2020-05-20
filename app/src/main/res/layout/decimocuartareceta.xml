@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="14.- Patatas a la alavesa\n
+        \n
+        Ingredientes:\n
+        \n
+        Patatas.\n
+        Chorizo picante.\n
+        Cebolleta.\n
+        Pimiento verde.\n
+        Tomate triturado.\n
+        Ajo.\n
+        Aceite de oliva.\n
+        Agua\n
+        \n
+        Pelar las patatas y lavar las verduras.\n
+        Picar la cebolleta el pimiento verde y el ajo.\n
+        Poner en una cazuela un chorrito de aceite de oliva y ponerlo al fuego.\n
+        Sofreir las verduras, una vez listas echear el tomate triturado y despues el chorizo troceado.\n
+        Cascar las patatas e incorporarlas al sofrito.\n
+        Añadir agua y sal y dejar que se haga, hasta que esten tiernas las patatas.\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

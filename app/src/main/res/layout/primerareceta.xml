@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_default_normal_lblue"
+                android:orientation="vertical"
+                android:text="1 .-Pollo a la Coca Cola
+            \n
+            \n
+            Ingredientes:\n
+            \n
+            1 sopa de cebolla de sobre.\n
+            500 gr de pollo (lo que más te guste: pechuga, muslos, alas,...)\n
+            un poco de aceite de oliva\n
+            1 vaso de Coca-cola\n
+            2 cucharadas de ketchup\n
+            sal y pimienta\n
+            \n
+            Preparación:\n
+            Se pone al fuego una sartén con un poco de aceite, y se saltea ligeramente un sobre de sopa de cebolla.\n
+            \n
+            Cuando esté listo echamos el pollo y cuando la carne está dorada, se añade la coca-cola y el ketchup, se salpimenta ligeramente y se deja cocer a fuego lento hasta que se consume el líquido y la carne está tierna.\n
+            \n
+            Se puede servir con patatas fritas, pasta, puré de patata o arroz blanco."
+                android:textSize="18sp"></TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pollococacola">
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

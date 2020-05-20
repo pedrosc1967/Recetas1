@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="19.- Filetes rusos al horno.\n
+        \n
+        Ingredientes:\n
+        \n
+        500 grs de carne picada (yo uso mitad terner y mitad cerdo)\n
+        Pan rallado con ajo y perejil.\n
+        3 huevos.\n
+        \n
+        \n
+        Batimos bien los huevos los mezclamos con la carne picada y el pan rallado hasta que quede una masa homogénea. La masa tiene que quedar consistente, pero sin ser demasiado compacta porque los filetes no saldrían jugosos.\n
+        \n
+        Repartimos la mezcla en bolas (tantas como filetes queramos hacer), a mi con 500 grs me salen 6 filetes generosos. Aplastamos las bolas dándole la forma de un filete y las rebozamos en pan rallado.\n
+        \n
+        Las ponemos en una bandeja de horno y horneamos unos 30 min a 220ºC. El tiempo de cocción depende de como e gusten de hechos los filetes.\n
+        \n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

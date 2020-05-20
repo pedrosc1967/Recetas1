@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="10.- Huevos al plato.\n
+        \n
+        Ingredientes:\n
+        \n
+        4 huevos\n
+        un poco de matequilla\n
+        unos trocitos de jamón serrano\n
+        unos trocitos de chorizo\n
+        un bote grande de guisantes\n
+        4 cazuelitas para el horno\n
+        \n
+        Unta de mantequilla cada una de las cazuelitas.\n
+        Escurre los guisantes y repártelos entre las cazuelitas.\n
+        Esclafa un huevo en cada cazuelita. Échale por encima los trocitos de jamón y chorizo a tu gusto\n
+        Mételas al horno a 220 grados, hasta que los huevos estén cuajados a tu gusto.\n
+        Fácilmente quedarás como un auténtico cocinillas.\n\n\n\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

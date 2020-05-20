@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="18.- Pimientos italianos rellenos\n
+        \n
+        Ingredientes:\n
+        \n
+        Pimientos italianos\n
+        Carne picada (la que prefiramos: pollo, ternera, cerdo...)\n
+        Pan rallado con ajo y perejil\n
+        Huevos\n
+        Laurel, tomillo\n
+        Vino blanco\n
+        Elaboración\n
+        \n
+        Quitamos las semillas a los pimientos y los reservamos.\n
+        \n
+        Hacemos una mezcla con la carne picada, el pan rallado y el huevo, hasta que quede una masa homogénea.\n
+        La cantidad de pan rallado y huevo depende de la cantidad de carne y de los pimientos a rellenar.\n
+        \n
+        Con esta pasta se rellenan los pimientos y se ponen en una cazuela con aceite, agua, un poco de vino blanco y las hierbas aromáticas.\n
+        \n
+        Se dejan cocer a fuego lento, dándoles vueltas para que no se peguen. coceran hasta que estén blandos y hayan cogido la forma del relleno que llevan dentro.\n
+        Pueden servirse acompañados de un poco de arroz blanco regado con el líquido de la cocción.\n
+        \n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+

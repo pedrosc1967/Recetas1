@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@drawable/btn_default_normal_lblue"
+          android:textSize="18sp"
+          android:text="8.-Chipirones rellenos en salsa\n
+        \n
+        Ingredientes:\n
+        \n
+        1kg de chipirones rellenos. (los venden así en las pescaderías).\n
+        1 bote pequeño de tomate frito.\n
+        1 chorrito de vino.\n
+        1 hoja de laurel.\n
+        1/2 cebolla.\n
+        \n
+        \n
+        Pon en una cazuela el aceite. Parte la cebolla en juliana y rehogala junto al laurel hasta que esté blandita.Luego pones la salsa de tomate y el chorrito de vino y dejas cocer unos 5 minutos. Echas los chipirones y los mantienes a fuego medio 40 min. Si quieres que la salsa espese al final de la coción puedes poner una cucharadita de harina o maicena.¡ Te chuparás los dedos!.\n
+        \n
+        Con poco esfuerzo tendrás un plato digno del mejor restaurante
+        \n\n\n\n\n\n\n\n\n\n\n\n\n"
+        >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+</LinearLayout>
+
