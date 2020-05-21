@@ -12,6 +12,11 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
         <TextView
           xmlns:android="http://schemas.android.com/apk/res/android"
           android:orientation="vertical"
@@ -33,9 +38,18 @@ android:layout_height="fill_parent">
         Pon en una cazuela el aceite. Parte la cebolla en juliana y rehogala junto al laurel hasta que esté blandita.Luego pones la salsa de tomate y el chorrito de vino y dejas cocer unos 5 minutos. Echas los chipirones y los mantienes a fuego medio 40 min. Si quieres que la salsa espese al final de la coción puedes poner una cucharadita de harina o maicena.¡ Te chuparás los dedos!.\n
         \n
         Con poco esfuerzo tendrás un plato digno del mejor restaurante
-        \n\n\n\n\n\n\n\n\n\n\n\n\n"
+        "
         >
         </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chipironessalsa">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

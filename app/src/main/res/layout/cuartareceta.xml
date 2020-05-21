@@ -12,28 +12,42 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="4.-Bacalao con mahonesa\n
-        \n
-        Ingredientes:\n
-        \n
-        Cuatro lonchas de bacalao fresco.\n
-        Mahonesa al gusto.\n
-        \n
-        Se ponen las lonchas de bacalao en una fuente del horno,
-        se les pone por encima una generosa cantidad de mahonesa y
-        se meten en el horno precalentado a 220ºC unos 10 minutos.
-        \n\n
-        Más ràpido y fácil no puede ser.\n
-        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\"
-        >
-        </TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="18sp"
+              android:text="4.-Bacalao con mahonesa\n
+            \n
+            Ingredientes:\n
+            \n
+            Cuatro lonchas de bacalao fresco.\n
+            Mahonesa al gusto.\n
+            \n
+            Se ponen las lonchas de bacalao en una fuente del horno,
+            se les pone por encima una generosa cantidad de mahonesa y
+            se meten en el horno precalentado a 220ºC unos 10 minutos.
+            \n\n
+            Más ràpido y fácil no puede ser.\n
+            \n\n\">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bacalaomayonesa">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

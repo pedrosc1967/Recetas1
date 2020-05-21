@@ -12,36 +12,49 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="3.-Ensalada frequista de arroz\n
-        \n
-        Ingredientes:\n
-        \n
-        Arroz, huevos, atun en escabeche\n
-        Pimiento rojo y verde, cebolla, guisante, zanahoria\n
-        Tomate natural, pepino, pepinillo en vinagre\n
-        Mahonesa, lechuga\n
-        Sal, aceite de oliva, vinagre y limon.\n
-        \n
-        \n
-        Cocer el arroz 18 minutos, enfriar y preparar una ensalada de arroz con los guisantes, el tomate, los pimientos, el pepino, el pepinillo, la cebolla, la zanahoria, y la lechuga, todo en juliana.\n
-        Aliñar con sal, aceite, vinagre y un poco de limón.\n
-        \n
-        Poner a enfriar y reservar.\n
-        \n
-        Cocer los huevos 10 minutos, enfriarlos y ponerlos en el plato partidos por la mitad. \n
-        Cubrirlos con mahonesa y esparcir por encima el atún.\n
-        \n
-        Ñam, ñam.\n
-        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
-        >
-        </TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                  xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:background="@drawable/btn_default_normal_lblue"
+                  android:textSize="18sp"
+                  android:text="3.-Ensalada frequista de arroz\n
+                \n
+                Ingredientes:\n
+                \n
+                Arroz, huevos, atun en escabeche\n
+                Pimiento rojo y verde, cebolla, guisante, zanahoria\n
+                Tomate natural, pepino, pepinillo en vinagre\n
+                Mahonesa, lechuga\n
+                Sal, aceite de oliva, vinagre y limon.\n
+                \n
+                \n
+                Cocer el arroz 18 minutos, enfriar y preparar una ensalada de arroz con los guisantes, el tomate, los pimientos, el pepino, el pepinillo, la cebolla, la zanahoria, y la lechuga, todo en juliana.\n
+                Aliñar con sal, aceite, vinagre y un poco de limón.\n
+                \n
+                Poner a enfriar y reservar.\n
+                \n
+                Cocer los huevos 10 minutos, enfriarlos y ponerlos en el plato partidos por la mitad. \n
+                Cubrirlos con mahonesa y esparcir por encima el atún.\n
+                \n
+                Ñam, ñam."
+                >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/pollococa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ensaladaarroz">
+                </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

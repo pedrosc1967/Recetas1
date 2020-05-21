@@ -12,34 +12,48 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="7.-Pastel de Carne rico rico\n
-        \n
-        Ingredientes:\n
-        \n
-        1/2 kilo de carne picada (ternera, cerdo o mezcla de ambas).\n
-        1 cebolla.\n
-        Aceite.\n
-        3 sobres de puré de patata.\n
-        Queso para gratinar.\n
-        Mantequilla.\n
-        \n
-        Pon en una sarten el aceite. Parte la cebolla en juliana y rehogala hasta que esté blandita. Añade la carne picada y rehogalo todo hasta que la carne esté echa. Reserva.\n
-        \n
-        Prepara el puré de sobre.\n
-        \n
-        En una fuente para horno (profunda y no muy grande) pones una capa de puré, una capa de la carne frita con la cebolla, puré, carne y finalmente puré. Encima pones el queso rallado y nueces de mantequilla repartidas por la superficie.\n
-        \n
-        Gratina unos 5-10 min hasta que el queso esté dorado y a comer.\n
-        "
-        >
-        </TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="18sp"
+              android:text="7.-Pastel de Carne rico rico\n
+            \n
+            Ingredientes:\n
+            \n
+            1/2 kilo de carne picada (ternera, cerdo o mezcla de ambas).\n
+            1 cebolla.\n
+            Aceite.\n
+            3 sobres de puré de patata.\n
+            Queso para gratinar.\n
+            Mantequilla.\n
+            \n
+            Pon en una sarten el aceite. Parte la cebolla en juliana y rehogala hasta que esté blandita. Añade la carne picada y rehogalo todo hasta que la carne esté echa. Reserva.\n
+            \n
+            Prepara el puré de sobre.\n
+            \n
+            En una fuente para horno (profunda y no muy grande) pones una capa de puré, una capa de la carne frita con la cebolla, puré, carne y finalmente puré. Encima pones el queso rallado y nueces de mantequilla repartidas por la superficie.\n
+            \n
+            Gratina unos 5-10 min hasta que el queso esté dorado y a comer.\n
+            "
+            >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pastelcarne">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

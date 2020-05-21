@@ -12,29 +12,44 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="17.- Ensalada de lentejas con bacalao\n
-        \n
-        Ingredientes:\n
-        \n
-        1 bote de lentejas cocidas.\n
-        Bacalao desalado desmigado.\n
-        Huevos.\n
-        Aceite de oliva.\n
-        \n
-        Se vacía el bote de lentejas en un colador, se lavan y se dejan escurrir bien.\n
-        Se desmiga el bacalao escurriéndolo también.\n
-        Se cuecen los huevos hasta que estén duros y se rallan o se pican bien menudos.\n
-        Se pone en el fondo del plato una base de lentejas y encima el bacalao desmigado, se añade aceite a estos dos ingredientes y se cubre con el huevo picado (aproximadamente uno por persona).\n
-        \n\n\n"
-        >
-        </TextView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="18sp"
+              android:text="17.- Ensalada de lentejas con bacalao\n
+            \n
+            Ingredientes:\n
+            \n
+            1 bote de lentejas cocidas.\n
+            Bacalao desalado desmigado.\n
+            Huevos.\n
+            Aceite de oliva.\n
+            \n
+            Se vacía el bote de lentejas en un colador, se lavan y se dejan escurrir bien.\n
+            Se desmiga el bacalao escurriéndolo también.\n
+            Se cuecen los huevos hasta que estén duros y se rallan o se pican bien menudos.\n
+            Se pone en el fondo del plato una base de lentejas y encima el bacalao desmigado, se añade aceite a estos dos ingredientes y se cubre con el huevo picado (aproximadamente uno por persona).\n
+            \n"
+            >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lentejasbacalao">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

@@ -12,33 +12,47 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="6.-Ensalada de Garbanzos\n
-        \n
-        Ingredientes:\n
-        \n
-        Un bote de garbanzos precocidos.\n
-        2 zanahorias.\n
-        3 tomates.\n
-        1 pepino.\n
-        1 cebolleta\n
-        Aceite.\n
-        vinagre.\n
-        Sal\n
-        \n
-        Se vacía el bote de garbanzos en un colador, se lavan y se dejan escurrir bien.\n
-        Lavamos los tomates y la cebolleta, pelamos las zanahorias y el pepino, lo partimos todo muy finito (yo lo meto en la batidora a poca velocidad) y lo mezclamos todo con aceite, un buen chorro de vinagre y sal.\n
-        \n
-        Mezclamos los garbanzos con la vinagreta y ya tenemos un estupendo plato para el verano.\n
-        "
-        >
-        </TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="18sp"
+              android:text="6.-Ensalada de Garbanzos\n
+            \n
+            Ingredientes:\n
+            \n
+            Un bote de garbanzos precocidos.\n
+            2 zanahorias.\n
+            3 tomates.\n
+            1 pepino.\n
+            1 cebolleta\n
+            Aceite.\n
+            vinagre.\n
+            Sal\n
+            \n
+            Se vacía el bote de garbanzos en un colador, se lavan y se dejan escurrir bien.\n
+            Lavamos los tomates y la cebolleta, pelamos las zanahorias y el pepino, lo partimos todo muy finito (yo lo meto en la batidora a poca velocidad) y lo mezclamos todo con aceite, un buen chorro de vinagre y sal.\n
+            \n
+            Mezclamos los garbanzos con la vinagreta y ya tenemos un estupendo plato para el verano.\n
+            "
+            >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ensaladagarbanzos">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

@@ -12,34 +12,48 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <TextView
-          xmlns:android="http://schemas.android.com/apk/res/android"
-          android:orientation="vertical"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:background="@drawable/btn_default_normal_lblue"
-          android:textSize="18sp"
-          android:text="9.- Tarta de queso con mermelada.\n
-        \n
-        Ingredientes:\n
-        \n
-        300gr de queso de burgos sin sal.\n
-        3 huevos.\n
-        1 bote de leche condensada mediano.\n
-        Mermelada de la que te guste\n
-        Galletas\n
-        \n
-        Machaca un paquete de galletas María y ponlas en el fondo de una fuente de horno.\n
-        \n
-        Mezcla en la batiroda el resto de los ingredientes y échalos por encima de las galletas.\n
-        \n
-        Mételo en el horno precalentado a 180 ºC y con el grill durante unos 40 min (pinchaló para asegurarte de que está listo, estará cuando el cuchillo salga limpio).\n
-        \n
-        Déjalo enfriar, ponle por encima la mermelada que más te guste y al frigo.\n
-        \n
-        Con esta tarta quedarás como un auténtico chef\n"
-        >
-        </TextView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/btn_default_normal_lblue"
+              android:textSize="18sp"
+              android:text="9.- Tarta de queso con mermelada.\n
+            \n
+            Ingredientes:\n
+            \n
+            300gr de queso de burgos sin sal.\n
+            3 huevos.\n
+            1 bote de leche condensada mediano.\n
+            Mermelada de la que te guste\n
+            Galletas\n
+            \n
+            Machaca un paquete de galletas María y ponlas en el fondo de una fuente de horno.\n
+            \n
+            Mezcla en la batiroda el resto de los ingredientes y échalos por encima de las galletas.\n
+            \n
+            Mételo en el horno precalentado a 180 ºC y con el grill durante unos 40 min (pinchaló para asegurarte de que está listo, estará cuando el cuchillo salga limpio).\n
+            \n
+            Déjalo enfriar, ponle por encima la mermelada que más te guste y al frigo.\n
+            \n
+            Con esta tarta quedarás como un auténtico chef\n"
+            >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tartaqueso">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout

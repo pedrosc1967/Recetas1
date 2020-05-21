@@ -12,6 +12,11 @@ android:layout_height="fill_parent">
         android:layout_height="match_parent"
         android:layout_weight="1">
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
         <TextView
           xmlns:android="http://schemas.android.com/apk/res/android"
           android:orientation="vertical"
@@ -40,10 +45,18 @@ android:layout_height="fill_parent">
         \n
         A mitad de la cocción (30 minutos), daremos la vuelta y añadiremos el resto de la cerveza.\n
         \n
-        Se puede servir con patatas fritas, pasta, puré de patata o arroz blanco.\n
-        \n"
+        Se puede servir con patatas fritas, pasta, puré de patata o arroz blanco.\n"
         >
         </TextView>
+
+            <ImageView
+                android:id="@+id/pollococa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pollocerveza">
+            </ImageView>
+
+        </LinearLayout>
     </ScrollView>
 
     <LinearLayout
