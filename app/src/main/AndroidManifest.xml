@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:versionName="1.0" android:versionCode="1" package="com.recetas.uno">
+    android:versionName="1.0" android:versionCode="1" package="com.aplanetbit.recetas.uno">
 
     <supports-screens android:largeScreens="true" android:anyDensity="true" android:smallScreens="true" android:resizeable="true" android:normalScreens="true"></supports-screens>
     
@@ -60,5 +60,4 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
-    
 </manifest>
