@@ -18,19 +18,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-
-
+import com.facebook.ads.AdSize;
+import com.facebook.ads.AdView;
+import com.facebook.ads.AudienceNetworkAds;
 
 public class RecetasUno extends Activity implements OnInitListener {
-
-	private AdView mAdView;
 
 //Definici�n del men� en menu.xml
 @Override
@@ -65,9 +60,7 @@ public boolean onOptionsItemSelected(MenuItem item) {
         return super.onOptionsItemSelected(item);
     }
 }
-
-
-
+	private AdView adView;
 
 //Definicion de la interfaz de usuario
 @Override
@@ -75,15 +68,19 @@ public void onCreate(Bundle savedInstanceState) {
 	super.onCreate(savedInstanceState);
 	setContentView(R.layout.main);
 
-	// AdMob Block
-	MobileAds.initialize(this, new OnInitializationCompleteListener() {
-		@Override
-		public void onInitializationComplete(InitializationStatus initializationStatus) {
-		}
-	});
-	mAdView = findViewById(R.id.adView);
-	AdRequest adRequest = new AdRequest.Builder().build();
-	mAdView.loadAd(adRequest);
+	// Initialize the Audience Network SDK
+	AudienceNetworkAds.initialize(this);
+
+	adView = new AdView(this, getString(R.string.FAN_banner_id), AdSize.BANNER_HEIGHT_50);
+
+	// Find the Ad Container
+	LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+
+	// Add the ad view to your activity layout
+	adContainer.addView(adView);
+
+	// Request an ad
+	adView.loadAd();
 
 	Button primerarecetaPlayerBtn = (Button)findViewById(R.id.primerarecetaPlayerBtn);
 	Button segundarecetaPlayerBtn = (Button)findViewById(R.id.segundarecetaPlayerBtn);
@@ -376,6 +373,14 @@ public void onCreate(Bundle savedInstanceState) {
 //Aqui se pondr�an m�s botones
 }
 
+	//Para FAN
+	@Override
+	protected void onDestroy() {
+		if (adView != null) {
+			adView.destroy();
+		}
+		super.onDestroy();
+	}
 
 	public void onInit(int arg0) {
 	// TODO Auto-generated method stub
